@@ -14,12 +14,12 @@ Run:
 ```bash
 $ npm init
 ```
-Install dependencies
+Install dependencies:
 ```bash
 $ npm i [dependencies]
 ```
 # API Key
-In the app.js file, replace the string in the quotation marks with your own API key
+In the app.js file, replace the string in the quotation marks with your own API key. You can generate an API key by signing up for a free account on open weathermap.
 ```javascript
 const appId = "YOUR API KEY";
 ```
