@@ -18,7 +18,6 @@ app.use(express.static(__dirname + '/public'));
 // Allows us to use ejs
 app.set('view engine', 'ejs');
 
-let searched = false;
 let city = "";
 
 app.get('/', (req, res) => {
