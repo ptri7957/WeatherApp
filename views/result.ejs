@@ -1,0 +1,16 @@
+<%- include('./partials/header') -%>
+    <div class="container mt-5">
+      <div class="card">
+        <div class="card-body result">
+          <img src="http://openweathermap.org/img/wn/<%= icon %>@2x.png" alt="<%= description %>">
+          <h1><%= city[0].toUpperCase() + city.substring(1, city.length) %></h1>
+          <h2><%= date %></h2>
+          <h3>Description: <%= description.toUpperCase() %></h3>
+          <p>Max: <%= maxTemp %> Celcius</p>
+          <p>Min: <%= minTemp %> Celcius</p>
+          <a href="/" class="btn btn-primary">Return to search</a>
+        </div>
+      </div>
+
+    </div>
+<%- include('./partials/footer') -%>
